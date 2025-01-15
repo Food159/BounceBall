@@ -36,5 +36,6 @@ public class IncreaseBounce : MonoBehaviour
             }
             //Debug.Log("Bounciness increased to: " + ball.bounciness);
             }
+        SoundManager.soundManager.hit();
     }
 }

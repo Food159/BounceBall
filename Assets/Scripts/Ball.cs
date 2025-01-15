@@ -67,6 +67,7 @@ public class Ball : MonoBehaviour
             {
                 Debug.LogWarning("PhysicsMaterial2D is not assigned.");
             }
+            SoundManager.soundManager.PlaySound();
         }
     }
     public void IncreaseBounciness(float value)
