@@ -25,7 +25,7 @@ public class Ball : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Collider2D not found on the GameObject.");
+            
         }
         if (rb2d != null)
         {
